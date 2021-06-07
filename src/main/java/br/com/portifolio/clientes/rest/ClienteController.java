@@ -24,7 +24,7 @@ import br.com.portifolio.clientes.model.repository.ClienteRepository;
 @RestController
 @RequestMapping("/api/clientes")
 //@CrossOrigin("http://localhost:4200")
-@CrossOrigin("https://springboot.sp.skdrive.net")
+@CrossOrigin("http://springboot.sp.skdrive.net")
 public class ClienteController {
 	
 	@Autowired
